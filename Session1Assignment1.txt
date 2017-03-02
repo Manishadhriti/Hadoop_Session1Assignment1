@@ -1,0 +1,28 @@
+1.social media
+ media
+ documents
+ data storage
+ archives
+ machine log data
+ sensor data
+
+2. volume
+   variety
+   velocity
+3. vertical scaling
+   increasing the cores and CPU power of single instance as the data storage increases.
+   horizontal scaling
+   Horizontal scaling divides the data set and distributes the data over multiple servers, or shards.
+   Each shard is an independent database, and collectively, the shards make up a single logical database.
+4. need of hadoop
+   Hadoop makes it possible to consolidate your data and business intelligence capabilities within an Enterprise Data Hub. The ability to save all organizational data at its lowest level of granularity and bring all archive data into an
+   Enterprise Data Hub gives business users greater and faster access to data – resulting in deeper analytics using more 
+   data points and is also cost effective.
+   working of hadoop
+   A client acesses unstructured and semi structured data from sources including log files, social media feeds,
+   and internal data stores. Break the data up into "parts," which are then loaded into a file system made up of multiple
+   nodes running on commodity hardware using HDFS. Each "part" is replicated multiple times and loaded into the file 
+   system for replication and failsafe processing. A node acts as the Facilitator and another as Job Tracker.
+   Jobs are distributed to the clients, and once completed the results are collected and aggregated using MapReduce.
+
+  
